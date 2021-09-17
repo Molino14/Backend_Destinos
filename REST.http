@@ -59,14 +59,14 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTNhO
 ### Lista de usuarios
 GET http://localhost:5000/api/usuarios/
 ### Lista de usuarios
-GET https://cifebe.herokuapp.com/api/usuarios/
+GET https://destinos1.herokuapp.com/api/usuarios/
 
 ### POST crear usuarios
 POST http://localhost:5000/api/usuarios/alta HTTP/1.1
 content-type: application/json
 
 {
-    "nombre": "nmobre2",
+    "nombre": "nombre2",
     "email": "ronjones0a@gmail.com",
     "password": "123456"
 }
